@@ -1,4 +1,4 @@
-import { FaUser, FaAt, FaMapMarkerAlt, FaCircle } from 'react-icons/fa';
+import { FaUser, FaMapMarkerAlt, FaCircle } from 'react-icons/fa';
 import { User } from "../App";
 
 interface UserProps {

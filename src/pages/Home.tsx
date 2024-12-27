@@ -50,6 +50,8 @@ export function Home() {
         public_repos: userData.public_repos,
         followers: userData.followers,
         following: userData.following,
+        total_stars: 0, // Initialize with 0, will be updated when repos are fetched
+        repos: [], // Initialize with empty array, will be updated when repos are fetched
       });
 
       // Fetch repositories (up to 100 most recent)

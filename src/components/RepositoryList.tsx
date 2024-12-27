@@ -1,4 +1,3 @@
-import { Repository } from "../App";
 import { FaStar, FaCodeBranch, FaExclamationCircle, FaClock } from 'react-icons/fa';
 
 interface Repository {

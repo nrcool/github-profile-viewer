@@ -3,6 +3,21 @@ import { Home } from './pages/Home';
 import { About } from './pages/About';
 import './App.css';
 
+export type User = {
+  name: string;
+  avatar_url: string;
+  location: string;
+  bio: string;
+  public_repos: number;
+  followers: number;
+  following: number;
+  total_stars: number;
+  repos: any[];
+  html_url: string;
+  username: string;
+};
+
+
 function App() {
   return (
     <Router>
