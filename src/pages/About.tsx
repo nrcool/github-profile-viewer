@@ -1,4 +1,5 @@
 import { FaGithub, FaSearch, FaCode, FaUserFriends } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 export const About = () => {
   return (
@@ -67,9 +68,9 @@ export const About = () => {
           <FaUserFriends className="text-4xl mx-auto mb-4 text-yellow-400" />
           <p className="text-gray-400">
             Start exploring GitHub profiles now by heading to the{' '}
-            <a href="/" className="text-blue-400 hover:text-blue-300 hover:underline">
+            <Link to="/" className="text-blue-400 hover:text-blue-300 hover:underline">
               Home page
-            </a>
+            </Link>
           </p>
         </div>
       </div>
