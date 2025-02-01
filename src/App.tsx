@@ -3,7 +3,7 @@ import { Header } from './components/header/Header';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import './App.css';
-console.log(import.meta.env.API_KEY)
+console.log(import.meta.env.VITE_API_KEY)
 export type User = {
   name: string;
   avatar_url: string;
