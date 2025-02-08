@@ -19,7 +19,7 @@ export type User = {
 
 
 function App() {
-  console.log(import.meta.env.VITE_TEST)
+  
   return (
     <Router>
       <div className="min-h-screen bg-[#0d1117] text-gray-300 relative overflow-hidden border border-gray-800">
