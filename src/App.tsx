@@ -3,7 +3,6 @@ import { Header } from './components/header/Header';
 import { Home } from './pages/Home';
 import { About } from './pages/About';
 import './App.css';
-
 export type User = {
   name: string;
   avatar_url: string;
